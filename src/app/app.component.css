@@ -1,0 +1,25 @@
+.nav{
+    margin-top: 40px;
+    display:flex;
+    flex-direction: row;
+    align-content: space-between;
+    width: 100%;
+    border-bottom: 1px solid #dbdbdb ;
+}
+
+
+
+a{
+    background-color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+ }
+
+
+  .active, a:hover{
+    background-color: gray;
+    color:white;
+  }

@@ -1,0 +1,46 @@
+
+.body{
+    margin-top: 20px;
+    text-align: center;
+}
+
+
+form{
+    padding-left: 50px;
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+    height:50%;
+    margin:0;
+
+}
+
+button[type=submit] {
+    padding:5px 15px; 
+    color:whitesmoke;
+    background: rgb(71, 113, 150); 
+    border:1px black solid;
+    cursor:pointer;
+    border-radius: 5px; 
+}
+
+input,.ng-valid:not(form){
+    border-left: 4px rgb(100, 169, 233) solid;
+  }
+input,.ng-valid.required:not(form){
+    border-left: 4px rgb(100, 169, 233) solid;
+  }
+input,.ng-untouched:not(form){
+  border-left: 4px rgb(100, 169, 233) solid;
+}
+
+.ng-invalid:not(form).ng-touched{
+border-left: 4px lightcoral solid;
+}
+
+button:disabled{
+    color:rgb(160, 153, 153);
+     border:1px rgba(211, 211, 211, 0.774) solid ;
+     background:aliceblue; 
+  }
+
